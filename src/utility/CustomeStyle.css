@@ -1,0 +1,121 @@
+.text-justify {
+  text-align: justify;
+}
+.navbar-bg {
+  background: #0F172A;
+}
+
+.bannar-bg{
+  background-color: #0F172A !important;
+  border: none !important;
+}
+.card-bg {
+  background-color: #1f2235 !important;
+  border: none !important;
+}
+.btn-bg {
+  background: #23263a !important;
+  border-color: #fd4a57 !important;
+}
+.section-bg {
+  background: #1f2235;
+}
+.text-color {
+  color: #fd4a57;
+}
+.contact-Me {
+  background: #1f2235 !important;
+  border: none !important;
+}
+.progress-bar{
+  width: 150px;
+  height: 150px;   
+}
+.react-icon {
+  transform: rotateZ(0deg);
+  animation: react 15s infinite;
+  transition: ease 5s;
+}
+.mongo-icon{
+  bottom: 27%;
+  right: -5%;
+  transform: rotateY(0deg);
+  animation: mongo 10s infinite;
+  transition: ease 5s;
+}
+@keyframes react {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes mongo {
+  0%{
+    transform: rotateY(0deg);
+    bottom: 27%;
+  }
+  50%{
+    transform: rotateY(360deg);
+    bottom: 24%;
+  }
+  100%{
+    transform: rotateY(0deg);
+    bottom: 27%;
+  }
+}
+.blog-text{
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.card-content {
+  min-height: 300px !important;
+}
+
+.about-img {
+  width: 400px !important;
+  height: 500px !important;  
+}
+.img-bg{
+  /* background: #fd4a57; */
+  border-color: #fd4a57 !important;
+
+}
+.section-card-bg {
+  background-color: #1f2235 !important;
+  border-color: #fd4a57 !important;
+}
+.project-card-bg {
+  background-color: #1f2235 !important; 
+}
+.project-img{
+  height: 240px !important;
+}
+@media (min-width: 1080px) and (max-width: 1920px) {
+  #home{
+    padding-bottom: 15rem;
+  }
+  #about{
+    padding-bottom: 10rem;
+  }
+  #skill{
+    padding-bottom: 15rem;
+  }
+  #project{
+    padding-bottom: 15rem;
+  }
+  #project-details{
+    padding-bottom: 15rem;
+  } 
+  #services{
+    padding-bottom: 15rem;
+  }
+  #contact-Me{
+    padding-bottom: 15rem;
+  }
+}
