@@ -47,7 +47,7 @@ const Projects = () => {
                 </div>
 
                 <Card.Text className="text-justify text-white">
-                  Music Instruments is an online secondhand marketplace where
+                  Sonic Revolution is an online secondhand marketplace where
                   people can advertise their products. It has three roles and
                   each role has a separate dashboard where the user, seller, and
                   admin can manage their actions.

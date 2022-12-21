@@ -46,9 +46,9 @@ const ProjectDetails = () => {
                 </Carousel>
               </Col>
               <Col lg={6} md={12} sm={12}>
-                <h1 className="text-white mb-3">Music Instruments</h1>
+                <h1 className="text-white mb-3">Sonic Revolution</h1>
                 <p className="text-justify text-white">
-                  Music Instruments is an online secondhand marketplace where
+                Sonic Revolution is an online secondhand marketplace where
                   people can advertise their products. It has three roles and
                   each role has a separate dashboard where the user, seller, and
                   admin can manage their actions.
